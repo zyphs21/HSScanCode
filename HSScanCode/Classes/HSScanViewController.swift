@@ -8,7 +8,7 @@
 import UIKit
 import AVFoundation
 
-public protocol HSScanViewControllerDelegate {
+public protocol HSScanViewControllerDelegate: class {
     func scanFinished(scanResult: ScanResult, error: String?)
 }
 
@@ -23,6 +23,7 @@ public class HSScanViewController: UIViewController {
     /// 扫码页面属性
     public var scanStyle: HSDefaultScanViewStyle!
 
+    public weak var delegate: HSScanViewControllerDelegate?
     
     // MARK: - Initialization
     
@@ -76,7 +77,7 @@ extension HSScanViewController {
         self.navigationController?.popViewController(animated: true)
         let result: ScanResult = results[0]
         print(result.strScanned ?? "")
-//        delegate.scanFinished(scanResult: result, error: nil)
+        delegate?.scanFinished(scanResult: result, error: nil)
     }
 
 }
