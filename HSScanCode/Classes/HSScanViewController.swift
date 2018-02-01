@@ -65,7 +65,7 @@ extension HSScanViewController {
     func startScan() {
         let defaultScanView = HSDefaultScanView(frame: self.view.frame)
         
-        scanWorker = ScanWorker(videoPreView: self.view, objType: scanCodeTypes, isCaptureImg: false, cropRect: defaultScanView.scanRect, success: { [weak self] (result) in
+        scanWorker = ScanWorker(videoPreView: self.view, objType: scanCodeTypes, cropRect: defaultScanView.scanRect, success: { [weak self] (result) in
             guard let strongSelf = self else { return }
             strongSelf.handleScanResult(results: result)
         })

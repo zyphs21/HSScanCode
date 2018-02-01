@@ -47,19 +47,15 @@ public class ScanWorker: NSObject, AVCaptureMetadataOutputObjectsDelegate {
     /// 扫码结果返回block
     var successBlock: ([ScanResult]) -> Void
     
-    /// 是否需要拍照
-    var isNeedCaptureImage: Bool
-    
     /// 当前扫码结果是否处理
     var isNeedScanResult: Bool = true
     
     
     // MARK: - Initialization
     
-    init(videoPreView: UIView, objType: [AVMetadataObject.ObjectType] = [.qr], isCaptureImg: Bool, cropRect: CGRect = .zero, success: @escaping ( ([ScanResult]) -> Void) ) {
+    init(videoPreView: UIView, objType: [AVMetadataObject.ObjectType] = [.qr], cropRect: CGRect = .zero, success: @escaping ( ([ScanResult]) -> Void) ) {
 
         successBlock = success
-        isNeedCaptureImage = isCaptureImg
         requireMetadataObjects = objType
         super.init()
         
@@ -160,12 +156,8 @@ extension ScanWorker {
         }
 
         if arrayResult.count > 0 {
-            if isNeedCaptureImage {
-                successBlock(arrayResult)
-            } else {
-                stop()
-                successBlock(arrayResult)
-            }
+            stop()
+            successBlock(arrayResult)
         } else {
             isNeedScanResult = true
         }
