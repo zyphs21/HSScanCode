@@ -23,7 +23,15 @@ class ViewController: UIViewController {
 
     @IBAction func scan(_ sender: Any) {
         let vc = HSScanViewController()
+        vc.delegate = self
         self.navigationController?.pushViewController(vc, animated: true)
+    }
+}
+
+extension ViewController: HSScanViewControllerDelegate {
+    func scanFinished(scanResult: ScanResult, error: String?) {
+        
+        print(scanResult.strScanned ?? "")
     }
 }
 

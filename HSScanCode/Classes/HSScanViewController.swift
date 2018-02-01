@@ -76,7 +76,7 @@ extension HSScanViewController {
     func handleScanResult(results: [ScanResult]) {
         self.navigationController?.popViewController(animated: true)
         let result: ScanResult = results[0]
-        print(result.strScanned ?? "")
+
         delegate?.scanFinished(scanResult: result, error: nil)
     }
 
