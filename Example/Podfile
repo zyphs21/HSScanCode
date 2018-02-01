@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HSScanCode_Example' do
+  pod 'HSScanCode', :path => '../'
+
+  target 'HSScanCode_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,6 @@
+framework module HSScanCode {
+  umbrella header "HSScanCode-umbrella.h"
+
+  export *
+  module * { export * }
+}

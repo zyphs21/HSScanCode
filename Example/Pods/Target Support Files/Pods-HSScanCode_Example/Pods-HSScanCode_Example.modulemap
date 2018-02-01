@@ -1,0 +1,6 @@
+framework module Pods_HSScanCode_Example {
+  umbrella header "Pods-HSScanCode_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
