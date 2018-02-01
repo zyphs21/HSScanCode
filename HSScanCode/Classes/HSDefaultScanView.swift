@@ -55,11 +55,13 @@ public class HSDefaultScanView: UIView, HSScanViewProtocol {
     
     public override init(frame: CGRect) {
         super.init(frame: frame)
+        self.backgroundColor = .clear
     }
     
     public init(frame: CGRect, style: HSDefaultScanViewStyle) {
         super.init(frame: frame)
         self.viewStyle = style
+        self.backgroundColor = .clear
     }
     
     required public init?(coder aDecoder: NSCoder) {
@@ -67,7 +69,7 @@ public class HSDefaultScanView: UIView, HSScanViewProtocol {
     }
     
     public override func draw(_ rect: CGRect) {
-        
+        drawDefaultRect(rect)
     }
 }
 

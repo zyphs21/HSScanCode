@@ -14,13 +14,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let testView = UIView(frame: CGRect(x: 60, y: 162, width: 255, height: 255))
-        testView.backgroundColor = UIColor.clear
-        testView.layer.borderColor = UIColor.cyan.cgColor
-        testView.layer.borderWidth = 1
-        testView.isUserInteractionEnabled = false
-        view.addSubview(testView)
-        
     }
 
     override func didReceiveMemoryWarning() {

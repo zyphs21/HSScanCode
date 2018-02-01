@@ -42,9 +42,8 @@ public class HSScanViewController: UIViewController {
     
     override public func viewDidLoad() {
         super.viewDidLoad()
-
-        self.view.backgroundColor = UIColor.black
         
+        self.edgesForExtendedLayout = UIRectEdge(rawValue: 0)
         ScanPermission.authorizeCamera { [weak self] (isGranted) in
             guard let strongSelf = self else { return }
             if isGranted {
