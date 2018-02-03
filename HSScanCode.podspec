@@ -1,7 +1,8 @@
 Pod::Spec.new do |s|
   s.name             = 'HSScanCode'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of HSScanCode.'
+  s.version          = '0.1.1'
+  s.swift_version    = '4.0'
+  s.summary          = 'HSScanCode. A Swift QRCode Scanner'
   s.homepage         = 'https://github.com/zyphs21/HSScanCode'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'zyphs21' => 'hansenhs21@live.com' }
