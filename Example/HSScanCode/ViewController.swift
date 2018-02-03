@@ -11,9 +11,9 @@ import HSScanCode
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var resultLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
     }
 
     override func didReceiveMemoryWarning() {
@@ -31,7 +31,8 @@ class ViewController: UIViewController {
 extension ViewController: HSScanViewControllerDelegate {
     func scanFinished(scanResult: ScanResult, error: String?) {
         
-        print(scanResult.strScanned ?? "")
+        print(scanResult.scanResultString ?? "")
+        resultLabel.text = scanResult.scanResultString
     }
 }
 

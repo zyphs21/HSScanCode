@@ -29,14 +29,26 @@
                                     <action selector="scan:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="N8Q-lN-cg7"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ScanResult" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GDv-5n-BfU">
+                                <rect key="frame" x="20" y="507" width="335" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.88276449435874182" green="0.41961637047349165" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="MLg-Ab-mse" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="YQa-Ik-bJz"/>
+                            <constraint firstItem="GDv-5n-BfU" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="Z7h-Ai-Ike"/>
                             <constraint firstItem="MLg-Ab-mse" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="chF-id-Qnn"/>
+                            <constraint firstAttribute="trailing" secondItem="GDv-5n-BfU" secondAttribute="trailing" constant="20" id="h4B-t0-uiR"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="GDv-5n-BfU" secondAttribute="bottom" constant="139" id="xCW-Zn-V1z"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="OWK-N7-jGu"/>
+                    <connections>
+                        <outlet property="resultLabel" destination="GDv-5n-BfU" id="zjz-fT-fYg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

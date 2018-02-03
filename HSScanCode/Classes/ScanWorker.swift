@@ -9,20 +9,14 @@ import Foundation
 import AVFoundation
 
 public struct ScanResult {
-    //码内容
-    public var strScanned: String? = ""
-    //扫描图像
-    public var imgScanned: UIImage?
-    //码的类型
-    public var strBarCodeType: String? = ""
-    //码在图像中的位置
-    public var arrayCorner: [AnyObject]?
+
+    public var scanResultString: String? = ""
+
+    public var barCodeType: String? = ""
     
-    public init(str: String?, img: UIImage?, barCodeType: String?, corner: [AnyObject]?) {
-        self.strScanned = str
-        self.imgScanned = img
-        self.strBarCodeType = barCodeType
-        self.arrayCorner = corner
+    public init(str: String?, barCodeType: String?) {
+        self.scanResultString = str
+        self.barCodeType = barCodeType
     }
 }
 
@@ -139,7 +133,7 @@ extension ScanWorker {
     
     public func metadataOutput(_ output: AVCaptureMetadataOutput, didOutput metadataObjects: [AVMetadataObject], from connection: AVCaptureConnection) {
 
-        print(metadataObjects)
+        // print(metadataObjects)
         
         if !isNeedScanResult {
             return
@@ -151,7 +145,7 @@ extension ScanWorker {
             if let metadataObj = metadataObj as? AVMetadataMachineReadableCodeObject {
                 let codeType = metadataObj.type
                 let codeContent = metadataObj.stringValue
-                arrayResult.append(ScanResult(str: codeContent, img: UIImage(), barCodeType: codeType.rawValue, corner: metadataObj.corners as [AnyObject]?))
+                arrayResult.append(ScanResult(str: codeContent, barCodeType: codeType.rawValue))
             }
         }
 
