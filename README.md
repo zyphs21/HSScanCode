@@ -4,7 +4,12 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+![](https://raw.githubusercontent.com/zyphs21/HSScanCode/master/demo.gif)
+
 ## Requirements
+
+- Swift 4
+- iOS 8 +
 
 ## Installation
 
@@ -18,6 +23,8 @@ pod 'HSScanCode'
 ## Author
 
 zyphs21, hansenhs21@live.com
+
+[my blog: myhanson.com](www.myhanson.com)
 
 ## License
 
