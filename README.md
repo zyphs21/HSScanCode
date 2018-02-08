@@ -20,6 +20,24 @@ it, simply add the following line to your Podfile:
 pod 'HSScanCode'
 ```
 
+## Usage
+
+```Swift
+import HSScanCode
+
+let vc = HSScanViewController()
+vc.delegate = self
+self.navigationController?.pushViewController(vc, animated: true)
+
+
+// get scan result from HSScanViewControllerDelegate
+extension ViewController: HSScanViewControllerDelegate {
+    func scanFinished(scanResult: ScanResult, error: String?) {
+        print(scanResult.scanResultString ?? "")
+    }
+}
+```
+
 ## Author
 
 zyphs21, hansenhs21@live.com
