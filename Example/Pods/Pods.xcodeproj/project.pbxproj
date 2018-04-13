@@ -32,27 +32,27 @@
 /* Begin PBXFileReference section */
 		02EE66DA3CA164E685BE0399AA7F1E64 /* HSScanCode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HSScanCode-prefix.pch"; sourceTree = "<group>"; };
 		1077953B14D11B1AE05A3E9CBF026A82 /* ScanWorker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScanWorker.swift; path = HSScanCode/Classes/ScanWorker.swift; sourceTree = "<group>"; };
-		16852C55DBD23779E7B106B1081259F5 /* Pods-HSScanCode_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HSScanCode_Example.modulemap"; sourceTree = "<group>"; };
+		16852C55DBD23779E7B106B1081259F5 /* Pods-HSScanCode_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HSScanCode_Example.modulemap"; sourceTree = "<group>"; };
 		2BC5A542606BF5B165ED16E22BD07C6F /* Pods-HSScanCode_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HSScanCode_Example-frameworks.sh"; sourceTree = "<group>"; };
 		324FC1E8B0E00EC08671583832D9824F /* Pods-HSScanCode_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HSScanCode_Example.release.xcconfig"; sourceTree = "<group>"; };
-		337E7C74C3A664077466807DE49938D3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		371BB98E65E5DA988A48DC528C10FD51 /* HSScanCode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = HSScanCode.modulemap; sourceTree = "<group>"; };
-		450A35E4973268E5DB41D1928D4E35B6 /* HSScanCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HSScanCode.framework; path = HSScanCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		337E7C74C3A664077466807DE49938D3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		371BB98E65E5DA988A48DC528C10FD51 /* HSScanCode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HSScanCode.modulemap; sourceTree = "<group>"; };
+		450A35E4973268E5DB41D1928D4E35B6 /* HSScanCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HSScanCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		516554228CF4F87A67C0C05685CD6A7F /* Pods-HSScanCode_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HSScanCode_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		53EE76D78AF2C54F824F93EFEC38D384 /* HSScanCode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HSScanCode.xcconfig; sourceTree = "<group>"; };
 		5EB6E83741379828558691729D31C096 /* Pods-HSScanCode_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HSScanCode_Example-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7EBB744A4A7F6333995095B9C24B2C0E /* Pods-HSScanCode_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HSScanCode_Example-resources.sh"; sourceTree = "<group>"; };
 		8404197D8FEFEEAE4B3B0EA1B477AE3C /* Pods-HSScanCode_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HSScanCode_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		929C6671D01FB9CF566B3EF2943D8701 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		929C6671D01FB9CF566B3EF2943D8701 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97FC770E06D15A3248ACEA371CBF4EB1 /* HSScanCode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HSScanCode-dummy.m"; sourceTree = "<group>"; };
 		AA9E6C3047592C3CA078C8603E02C140 /* HSDefaultScanView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HSDefaultScanView.swift; path = HSScanCode/Classes/HSDefaultScanView.swift; sourceTree = "<group>"; };
 		AB9E95BC6100DE4842593D0029AB881C /* Pods-HSScanCode_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HSScanCode_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		AF507E8EE9EE7772383F7A1889133617 /* HSScanViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HSScanViewController.swift; path = HSScanCode/Classes/HSScanViewController.swift; sourceTree = "<group>"; };
-		B4C93837F34EEBA0960ABA598781C6BB /* HSScanCode.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HSScanCode.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B4C93837F34EEBA0960ABA598781C6BB /* HSScanCode.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = HSScanCode.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B856B6CA766C1FD52819A09710BC80E7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C023C9C6E7162C993B10582C6B6815B4 /* Pods_HSScanCode_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HSScanCode_Example.framework; path = "Pods-HSScanCode_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C023C9C6E7162C993B10582C6B6815B4 /* Pods_HSScanCode_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HSScanCode_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D65BA5B9A6B7829764F8BE2E55CCA5AD /* ScanPermission.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScanPermission.swift; path = HSScanCode/Classes/ScanPermission.swift; sourceTree = "<group>"; };
 		F5F03F623FA537186D35D323AC494E3A /* HSScanCode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HSScanCode-umbrella.h"; sourceTree = "<group>"; };
 		FC1FC2C0CC5A7CA059893F55B8084517 /* Pods-HSScanCode_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HSScanCode_Example-dummy.m"; sourceTree = "<group>"; };
@@ -251,7 +251,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -352,6 +352,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -359,6 +360,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -412,6 +414,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -419,6 +422,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
